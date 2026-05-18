@@ -1,0 +1,27 @@
+name: Home
+version: 1.0.0
+main: com.masoncoemaet.home.HomePlugin
+author: Mason
+description: Clean SMP homes plugin for Spigot 1.12.2.
+softdepend: [LuckPerms]
+commands:
+  home:
+    description: Open your homes or teleport by slot.
+    usage: /home [number]
+    aliases: [homes]
+permissions:
+  home.use:
+    description: Allows players to use homes.
+    default: true
+  home.bypass.cooldown:
+    description: Bypasses home teleport cooldowns.
+    default: op
+  home.homes.5:
+    description: Allows up to 5 homes.
+    default: false
+  home.homes.10:
+    description: Allows up to 10 homes.
+    default: false
+  home.homes.27:
+    description: Allows up to 27 homes.
+    default: false

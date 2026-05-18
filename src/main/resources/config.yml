@@ -1,0 +1,24 @@
+# Default home slots for players without a home.homes.<amount> permission.
+# Valid range: 1-27.
+max-homes: 5
+
+# Storage types:
+# sqlite - local homes.db file, recommended for most servers.
+# mysql  - shared database for network or external backups.
+storage:
+  type: sqlite
+  mysql:
+    host: localhost
+    port: 3306
+    database: minecraft
+    username: root
+    password: password
+    useSSL: false
+
+settings:
+  # Cooldown applied after teleporting with /home or the homes menu.
+  # Players with home.bypass.cooldown ignore this value.
+  teleport-cooldown-seconds: 0
+
+  # Rename format used by the GUI rename flow.
+  home-name-pattern: "^[A-Za-z0-9_\\-]{1,16}$"

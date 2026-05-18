@@ -1,0 +1,40 @@
+main:
+  title: "&8Homes"
+  empty:
+    name: "&7Empty Home"
+    lore:
+      - "&7Click to set this home."
+      - "&8Uses your current location."
+  filled:
+    name: "&aHome %home%"
+    lore:
+      - "&7Click to teleport."
+      - "&8Location saved."
+  manage:
+    name: "&7Manage"
+    lore:
+      - "&7Click for options."
+  locked:
+    name: "&8Not Set"
+    lore:
+      - "&7Set a home first."
+
+manage:
+  title: "&8Home &a%home%"
+  teleport:
+    name: "&aTeleport"
+    lore:
+      - "&7Teleport to this home."
+  delete:
+    name: "&cDelete"
+    lore:
+      - "&7Delete this home."
+  rename:
+    name: "&eRename"
+    lore:
+      - "&7Rename this home."
+      - "&8Current: %name%"
+  back:
+    name: "&7Back"
+    lore:
+      - "&7Return to homes."
